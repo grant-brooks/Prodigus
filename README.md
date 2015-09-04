@@ -53,5 +53,5 @@ Read about this update [here](https://itunes.apple.com/us/app/prodigus/id7773756
 
 ---------------------------------------------------------------------------------------------------------------------
 
-#######All information is pulled from Prodigus' page on the iOS App Store. You can visit this page [here](https://itunes.apple.com/us/app/prodigus/id777375668?mt=8)..
+######All information is pulled from Prodigus' page on the iOS App Store. You can visit this page [here](https://itunes.apple.com/us/app/prodigus/id777375668?mt=8).
 
