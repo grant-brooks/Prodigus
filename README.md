@@ -1,7 +1,6 @@
+<img src="Application Icon.png" width="200" height="200" align="center" /> 
 # Prodigus
 Experience the ultimate in YouTube, experience **Prodigus**.
-
-![Alt text](http://a3.mzstatic.com/us/r30/Purple5/v4/25/8f/b6/258fb661-c244-bcf2-e433-98fc4e4122f2/icon175x175.jpeg)
 
 ##Dynamic Video Loading
 
@@ -18,7 +17,38 @@ The extremely quick loading times that have been praised in **Stainless** are bu
 ---------------------------------------------------------------------------------------------------------------------
 
 #Update 1.0.1
+######April 15, 2014
 Read about this update [here](https://itunes.apple.com/us/app/prodigus/id777375668?mt=8).
 
-##Hello
+##What's New
+
+###100% Less Blurry Labels!
+
+###Home Button for Faster Access to Pages
+
+###New User Interface Changes
+
+###Various Bug Fixes
+
+---------------------------------------------------------------------------------------------------------------------
+
+#Update 2.0.0.971
+######July 23, 2015
+Read about this update [here](https://itunes.apple.com/us/app/prodigus/id777375668?mt=8).
+
+**Prodigus II** brings an entirely new design to the table, with updated compatibility across multiple devices. **Prodigus II** packs in many new features and improves upon virtually every aspect of the previous version.
+
+Countless hours of time have been spent to bring you **Prodigus II**. We hope you enjoy this update. If you have any questions or concerns, please contact us.
+
+##What's New
+
+###Video Minimization.
+With video minimization, you can view your favorite content without ever missing a beat. Minimizing videos means that you will be able to watch a video while looking for others.
+
+###Custom Controls.
+A more responsive and arguably nicer looking player control scheme has been added to **Prodigus**, allowing you to do more with your videos and have a better experience while doing so. 
+
+###Landscape Fullscreen.
+The landscape switching issues that previously plagued **Prodigus** have been fully fixed. To enter fullscreen mode on a video, just tilt your device into landscape mode; the video will adjust its size accordingly.
+
 
