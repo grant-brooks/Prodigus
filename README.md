@@ -16,22 +16,6 @@ The extremely quick loading times that have been praised in **Stainless** are bu
 
 ---------------------------------------------------------------------------------------------------------------------
 
-#Update 1.0.1
-######April 15, 2014
-Read about this update [here](https://itunes.apple.com/us/app/prodigus/id777375668?mt=8).
-
-##What's New
-
-###100% Less Blurry Labels!
-
-###Home Button for Faster Access to Pages
-
-###New User Interface Changes
-
-###Various Bug Fixes
-
----------------------------------------------------------------------------------------------------------------------
-
 #Update 2.0.0.971
 ######July 23, 2015
 Read about this update [here](https://itunes.apple.com/us/app/prodigus/id777375668?mt=8).
@@ -51,4 +35,23 @@ A more responsive and arguably nicer looking player control scheme has been adde
 ###Landscape Fullscreen.
 The landscape switching issues that previously plagued **Prodigus** have been fully fixed. To enter fullscreen mode on a video, just tilt your device into landscape mode; the video will adjust its size accordingly.
 
+---------------------------------------------------------------------------------------------------------------------
+
+#Update 1.0.1
+######April 15, 2014
+Read about this update [here](https://itunes.apple.com/us/app/prodigus/id777375668?mt=8).
+
+##What's New
+
+###100% Less Blurry Labels!
+
+###Home Button for Faster Access to Pages
+
+###New User Interface Changes
+
+###Various Bug Fixes
+
+---------------------------------------------------------------------------------------------------------------------
+
+#######All information is pulled from Prodigus' page on the iOS App Store. You can visit this page [here](https://itunes.apple.com/us/app/prodigus/id777375668?mt=8)..
 
