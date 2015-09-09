@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="15A178w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="HelveticaNeue.ttc">
+            <string>HelveticaNeue-Bold</string>
+        </mutableArray>
+        <mutableArray key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Light</string>
+            <string>HelveticaNeue-Light</string>
+            <string>HelveticaNeue-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="xyq-2L-hjM" customClass="CustomVideoCell">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2xX-h2-2ER">
+                    <rect key="frame" x="8" y="5" width="398" height="83"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Oq4-W7-hy6">
+                            <rect key="frame" x="8" y="7" width="117" height="70"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="117" id="fTG-0g-bG9"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Views" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQs-X1-q8J" userLabel="viewCount">
+                            <rect key="frame" x="134" y="56" width="256" height="20"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Title" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M42-hj-BRP" userLabel="videoTitle">
+                            <rect key="frame" x="134" y="7" width="256" height="30"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9m 41s" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumFontSize="6" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zWS-sb-CXr" userLabel="time">
+                            <rect key="frame" x="69" y="55" width="56" height="21"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.035294117649999998" green="0.047058823530000002" blue="0.058823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="11"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Author" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngL-QP-a3c" userLabel="channelTitle">
+                            <rect key="frame" x="134" y="37" width="256" height="20"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="g02-ZD-GfQ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="ngL-QP-a3c" firstAttribute="top" secondItem="M42-hj-BRP" secondAttribute="bottom" id="4Wf-0h-bhK"/>
+                        <constraint firstItem="Oq4-W7-hy6" firstAttribute="leading" secondItem="2xX-h2-2ER" secondAttribute="leadingMargin" id="8lC-QW-UZb"/>
+                        <constraint firstItem="M42-hj-BRP" firstAttribute="top" secondItem="2xX-h2-2ER" secondAttribute="topMargin" constant="-1" id="90M-bC-nFu"/>
+                        <constraint firstItem="zWS-sb-CXr" firstAttribute="top" secondItem="2xX-h2-2ER" secondAttribute="top" constant="55" id="EdP-yc-P60"/>
+                        <constraint firstAttribute="bottom" secondItem="ngL-QP-a3c" secondAttribute="bottom" constant="26" id="N8h-EE-7k6"/>
+                        <constraint firstAttribute="bottom" secondItem="Oq4-W7-hy6" secondAttribute="bottom" constant="6" id="Pxe-QN-aGt"/>
+                        <constraint firstItem="aQs-X1-q8J" firstAttribute="top" secondItem="M42-hj-BRP" secondAttribute="bottom" constant="19" id="SiC-Bs-mFe"/>
+                        <constraint firstItem="aQs-X1-q8J" firstAttribute="leading" secondItem="M42-hj-BRP" secondAttribute="leading" id="UAG-fa-rAV"/>
+                        <constraint firstItem="Oq4-W7-hy6" firstAttribute="trailing" secondItem="zWS-sb-CXr" secondAttribute="trailing" id="VJ7-1L-OpH"/>
+                        <constraint firstItem="zWS-sb-CXr" firstAttribute="leading" secondItem="2xX-h2-2ER" secondAttribute="leading" constant="69" id="avq-gF-BDi"/>
+                        <constraint firstItem="aQs-X1-q8J" firstAttribute="trailing" secondItem="ngL-QP-a3c" secondAttribute="trailing" id="cgJ-gi-FF8"/>
+                        <constraint firstItem="M42-hj-BRP" firstAttribute="leading" secondItem="Oq4-W7-hy6" secondAttribute="trailing" constant="9" id="dMi-zr-H5b"/>
+                        <constraint firstItem="M42-hj-BRP" firstAttribute="trailing" secondItem="2xX-h2-2ER" secondAttribute="trailingMargin" id="ibD-pJ-glh"/>
+                        <constraint firstItem="aQs-X1-q8J" firstAttribute="leading" secondItem="ngL-QP-a3c" secondAttribute="leading" id="ipa-Fv-iTX"/>
+                        <constraint firstItem="Oq4-W7-hy6" firstAttribute="top" secondItem="M42-hj-BRP" secondAttribute="top" id="oEY-0I-Wrw"/>
+                        <constraint firstItem="aQs-X1-q8J" firstAttribute="bottom" secondItem="zWS-sb-CXr" secondAttribute="bottom" id="tY2-7N-BpB"/>
+                        <constraint firstItem="ngL-QP-a3c" firstAttribute="trailing" secondItem="M42-hj-BRP" secondAttribute="trailing" id="tnD-pL-n3T"/>
+                        <constraint firstAttribute="bottom" secondItem="zWS-sb-CXr" secondAttribute="bottom" constant="7" id="wQv-Ih-9kD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="2xX-h2-2ER" firstAttribute="top" secondItem="xyq-2L-hjM" secondAttribute="top" constant="5" id="6bP-im-ugg"/>
+                <constraint firstItem="2xX-h2-2ER" firstAttribute="trailing" secondItem="xyq-2L-hjM" secondAttribute="trailingMargin" id="IO0-Tw-xAV"/>
+                <constraint firstAttribute="bottom" secondItem="2xX-h2-2ER" secondAttribute="bottom" id="SIM-zt-cij"/>
+                <constraint firstItem="2xX-h2-2ER" firstAttribute="leading" secondItem="xyq-2L-hjM" secondAttribute="leadingMargin" id="yAk-eD-6qO"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="channelTitle" destination="ngL-QP-a3c" id="J5W-AV-hjr"/>
+                <outlet property="previewImage" destination="Oq4-W7-hy6" id="UXW-Jz-lR6"/>
+                <outlet property="time" destination="zWS-sb-CXr" id="waw-1m-qdN"/>
+                <outlet property="title" destination="M42-hj-BRP" id="0tI-Hh-fUg"/>
+                <outlet property="viewCount" destination="aQs-X1-q8J" id="TgU-1c-7Q4"/>
+            </connections>
+            <point key="canvasLocation" x="247" y="264"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
